@@ -1,0 +1,35 @@
+1. git init : inicializar un repositorio local
+
+
+SECUENCIA DE COMANDOS A EJECUTAR (SE REPITEN A MEDIDA QUE AVANZANDO):
+2. git add . / git add --all / git add -a / git add index.html
+3. git commit -m "Iniciando proyecto ejemplo"
+
+COMANDO PARA FUSIONAR CAMBIOS ENTRE RAMAS
+git merge "nombre rama desde la que se quiere fusionar"
+
+TRABAJAR CON RAMAS DE DESARROLLO
+git branch : Lista o muestra las ramas existentes y la rama actual
+git branch "nombre/rama" : permite crear una nueva rama
+git checkout "nombre/rama" : para cambiarse a una rama
+
+git checkout -b "nombre/rama" : crea la nueva rama y nos cambia a ella
+
+git branch -d "nombre/rama" : elimina una rama
+
+COMANDOS DE ESTADO / VISUALIZACIÓN DE REGISTROS / VERSIONES
+git status
+git log / git log --oneline
+
+VER DIFERENCIAS ENTRE RAMAS / VERSIONES
+git diff "rama/version a comparar"
+
+CREAR CREDENCIALES DE GIT
+git config --global user.name "Tu Nombre" 
+git config --global user.email "tu@email.com"
+
+git config --global --list
+
+
+VERIFICAR SI SE AGREGÓ CORRECTAMENTE EL REPOSITORIO REMOTO
+git remote -v
